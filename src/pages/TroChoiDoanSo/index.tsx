@@ -57,7 +57,7 @@ const TroChoiDoanSo: React.FC = () => {
         style={{ width: 400, textAlign: "center" }}
         bordered
       >
-        <Title level={3}>🎮 Trò Chơi Đoán Số</Title>
+        <Title level={3}> Trò Chơi Đoán Số</Title>
 
         <Space direction="vertical" size="middle" style={{ width: "100%" }}>
           <Text>{thongBao}</Text>

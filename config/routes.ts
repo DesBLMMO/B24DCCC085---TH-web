@@ -2,6 +2,18 @@
 
 export default [
 	{
+		path: '/QuanLyCauHoiTuLuan',
+		name: 'QuanLyCauHoiTuLuan',
+		component: './QuanLyCauHoiTuLuan',
+		icon: 'FileTextOutlined',
+	},
+	{
+		path: '/OanTuTi',
+		name: 'OanTuTi',
+		component: './OanTuTi',
+		icon: 'ScissorOutlined',
+	},
+	{
 		path: '/TroChoiDoanSo',
 		name: 'TroChoiDoanSo',
 		component: './TroChoiDoanSo',
