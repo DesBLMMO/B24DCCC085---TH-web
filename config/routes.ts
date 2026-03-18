@@ -2,6 +2,12 @@
 
 export default [
 	{
+		path: '/QuanLiDatLich',
+		name: 'QuanLiDatLich',
+		component: './QuanLiDatLich',
+		icon: 'CalendarOutlined',
+	},
+	{
 		path: '/QuanLyCauHoiTuLuan',
 		name: 'QuanLyCauHoiTuLuan',
 		component: './QuanLyCauHoiTuLuan',
