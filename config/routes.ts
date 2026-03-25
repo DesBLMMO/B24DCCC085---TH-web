@@ -2,6 +2,12 @@
 
 export default [
 	{
+		path: '/QuanLyTotNghiep',
+		name: 'QuanLyTotNghiep',
+		component: './QuanLyTotNghiep',
+		icon: 'FileDoneOutlined',
+	},
+	{
 		path: '/QuanLiDatLich',
 		name: 'QuanLiDatLich',
 		component: './QuanLiDatLich',
