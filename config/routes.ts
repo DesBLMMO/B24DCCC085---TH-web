@@ -2,6 +2,30 @@
 
 export default [
 	{
+		path: '/QuanLyTotNghiep',
+		name: 'QuanLyTotNghiep',
+		component: './QuanLyTotNghiep',
+		icon: 'FileDoneOutlined',
+	},
+	{
+		path: '/QuanLiDatLich',
+		name: 'QuanLiDatLich',
+		component: './QuanLiDatLich',
+		icon: 'CalendarOutlined',
+	},
+	{
+		path: '/QuanLyCauHoiTuLuan',
+		name: 'QuanLyCauHoiTuLuan',
+		component: './QuanLyCauHoiTuLuan',
+		icon: 'FileTextOutlined',
+	},
+	{
+		path: '/OanTuTi',
+		name: 'OanTuTi',
+		component: './OanTuTi',
+		icon: 'ScissorOutlined',
+	},
+	{
 		path: '/TroChoiDoanSo',
 		name: 'TroChoiDoanSo',
 		component: './TroChoiDoanSo',
