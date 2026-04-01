@@ -2,6 +2,11 @@
 
 export default [
 	{
+		path: '/QuanLiCLB',
+		name: 'QuanLiCLB',
+		component: './QuanLiCLB',
+	},
+	{
 		path: '/QuanLyTotNghiep',
 		name: 'QuanLyTotNghiep',
 		component: './QuanLyTotNghiep',
