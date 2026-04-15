@@ -6,7 +6,7 @@
 		"lib": ["esnext", "dom"],
 		"sourceMap": true,
 		"baseUrl": ".",
-		"jsx": "react-jsx",
+		"jsx": "react",
 		"resolveJsonModule": true,
 		"allowSyntheticDefaultImports": true,
 		"moduleResolution": "node",
@@ -17,10 +17,11 @@
 		"skipLibCheck": true,
 		"experimentalDecorators": true,
 		"strict": true,
+		"noImplicitAny": true,
 		"paths": {
 			"@/*": ["./src/*"],
 			"@@/*": ["./src/.umi/*"],
-			"react": ["./node_modules/@types/react"]
+	
 		}
 	},
 	"include": [

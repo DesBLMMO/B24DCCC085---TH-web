@@ -1,8 +1,15 @@
 ﻿import component from "@/locales/en-US/component";
 import Icon from "@ant-design/icons";
+import { icons } from "antd/es/image/PreviewGroup";
 import path from "path";
 
 export default [
+	{
+  path: '/quan-ly-phong-hoc',
+  name: 'Quản lý phòng học',
+  icon: 'bank',
+  component: './QuanLiPhongHoc',
+},
 	{
 		path: '/KeHoachDuLich',
 		name: 'KeHoachDuLich',
