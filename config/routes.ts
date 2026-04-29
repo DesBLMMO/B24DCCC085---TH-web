@@ -2,6 +2,31 @@
 
 export default [
 	{
+  path: '/dashboard',
+  name: 'Dashboard',
+  component: './Dashboard',
+},
+{
+  path: '/workout-log',
+  name: 'Nhật ký tập luyện',
+  component: './WorkoutLog',
+},
+{
+  path: '/health-log',
+  name: 'Nhật ký sức khỏe',
+  component: './HealthLog',
+},
+{
+  path: '/goals',
+  name: 'Mục tiêu',
+  component: './Goals',
+},
+{
+  path: '/exercise-library',
+  name: 'Thư viện bài tập',
+  component: './ExerciseLibrary',
+},
+	{
 		path: '/TroChoiDoanSo',
 		name: 'TroChoiDoanSo',
 		component: './TroChoiDoanSo',
