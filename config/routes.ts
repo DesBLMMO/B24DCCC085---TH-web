@@ -26,6 +26,12 @@ export default [
   name: 'Thư viện bài tập',
   component: './ExerciseLibrary',
 },
+{
+		path: '/thuc-hanh-07',
+		name: 'ThucHanh07',
+		icon: 'ExperimentOutlined',
+		component: './TH07',
+	},
 	{
 		path: '/TroChoiDoanSo',
 		name: 'TroChoiDoanSo',
