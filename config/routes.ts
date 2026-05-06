@@ -1,6 +1,12 @@
 ﻿import path from "path";
 
 export default [
+{
+	path: '/thuc-hanh-09',
+	name: 'ThucHanh09',
+	icon: 'ExperimentOutlined',
+	component: './TH09',
+},
 	{
   path: '/dashboard',
   name: 'Dashboard',
